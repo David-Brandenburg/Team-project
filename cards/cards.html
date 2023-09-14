@@ -7,6 +7,7 @@
     <title>Cards that expand til the Moon</title>
 </head>
 <body>
+    <div class="cards-container">
     <!-- 1 -->
     <div class="card">
         <label class="card-label" onclick="toggleCard(1)">
@@ -73,8 +74,9 @@
             <p class="description">More information about this burger.</p>
         </div>
     </div>
+    </div>
 
-    <!-- JS -->
+    <!-- JS ( ° ^°) meep-->
     <script>
         function toggleCard(cardNumber) {
             var description = document.querySelector('.card:nth-child(' + cardNumber + ') .description');
