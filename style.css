@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #779a75;
+}
+
+.welcome {
+    padding: 20px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.box {
+    border: 1px #ccc solid;
+    background-color: #f6edd9;
+    margin: 0 auto;
+    padding: 30px;
+    width: 50%;
+    height: 600px;
+    margin-top: 20px;
+}
+
+.box label {
+    display: block;
+    background-color: #779a75;
+    color: white;
+    padding: 5px;
+    margin: 0 auto;
+    width: 350px;
+    cursor: pointer;
+}
+.box input {
+    display: block;
+    background-color: white;
+    color: #068729;
+    width: 350px;
+    padding: 12px 5px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn input {
+    text-align: center;
+    background: #779a75;
+    color: white;
+    width: 360px;
+    padding: 12px;
+}
