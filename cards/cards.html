@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylecards.css">
+    <title>Cards that expand til the Moon</title>
+</head>
+<body>
+    <!-- 1 -->
+    <div class="card">
+        <label class="card-label" onclick="toggleCard(1)">
+            <img src="images/testburger.jpg" alt="burger with three square-shaped patties">
+        </label>
+        <div class="content">
+            <h3>Name1</h3>
+            <p>Click the image to read more...</p>
+            <p class="description">More information about this burger.</p>
+        </div>
+    </div>
+    <!-- 2 -->
+    <div class="card">
+        <label class="card-label" onclick="toggleCard(2)">
+            <img src="images/testburger.jpg" alt="burger with three square-shaped patties">
+        </label>
+        <div class="content">
+            <h3>Name2</h3>
+            <p>Click the image to read more...</p>
+            <p class="description">More information about this burger.</p>
+        </div>
+    </div>
+    <!-- 3 -->
+    <div class="card">
+        <label class="card-label" onclick="toggleCard(3)">
+            <img src="images/testburger.jpg" alt="burger with three square-shaped patties">
+        </label>
+        <div class="content">
+            <h3>Name3</h3>
+            <p>Click the image to read more...</p>
+            <p class="description">More information about this burger.</p>
+        </div>
+    </div>
+    <!-- 4 -->
+    <div class="card">
+        <label class="card-label" onclick="toggleCard(4)">
+            <img src="images/testburger.jpg" alt="burger with three square-shaped patties">
+        </label>
+        <div class="content">
+            <h3>Name4</h3>
+            <p>Click the image to read more...</p>
+            <p class="description">More information about this burger.</p>
+        </div>
+    </div>
+    <!-- 5 -->
+    <div class="card">
+        <label class="card-label" onclick="toggleCard(5)">
+            <img src="images/testburger.jpg" alt="burger with three square-shaped patties">
+        </label>
+        <div class="content">
+            <h3>Name5</h3>
+            <p>Click the image to read more...</p>
+            <p class="description">More information about this burger.</p>
+        </div>
+    </div>
+    <!-- 6 -->
+    <div class="card">
+        <label class="card-label" onclick="toggleCard(6)">
+            <img src="images/testburger.jpg" alt="burger with three square-shaped patties">
+        </label>
+        <div class="content">
+            <h3>Name6</h3>
+            <p>Click the image to read more...</p>
+            <p class="description">More information about this burger.</p>
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script>
+        function toggleCard(cardNumber) {
+            var description = document.querySelector('.card:nth-child(' + cardNumber + ') .description');
+            var cards = document.querySelectorAll('.description');
+
+            cards.forEach(function (card) {
+                card.style.display = 'none';
+            });
+
+            description.style.display = 'block';
+        }
+    </script>
+    
+</body>
+</html>
