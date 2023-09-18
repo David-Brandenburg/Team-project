@@ -14,6 +14,30 @@ body {
   margin-right: 10px;
   background-color: #f1fdef;
   color: black;
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    a {
+      font-size: 48px;
+      color: #004d15;
+    }
+    .überschrift-container {
+      margin-left: 10px;
+      h1 {
+        font-family: "Playball", sans-serif;
+        text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.2);
+        color: #004d15;
+        text-decoration: underline;
+      }
+      p {
+        font-family: "Poppins", sans-serif;
+        text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
   main {
     margin-top: 100px;
     border-radius: 10px;
@@ -70,6 +94,8 @@ body {
       .textarea-container {
         display: flex;
         flex-direction: column;
+        label {
+        }
         textarea {
           border: 2px solid rgb(200, 200, 200);
           border-radius: 25px;
