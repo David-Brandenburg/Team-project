@@ -1,86 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous" />
-    <link rel="stylesheet" href="stylecards.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playball&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+      integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="stylecards.css" />
     <title>Cards that expand til the Moon</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="cards-container">
-    <!-- 1 -->
-    <div class="card shadow" onmouseover="playHoverSound()" onmouseout="stopHoverSound()">
+      <!-- 1 -->
+      <div
+        class="card shadow"
+        onmouseover="playHoverSound()"
+        onmouseout="stopHoverSound()"
+        id="card1"
+        onclick="dropout1()">
         <label class="card-label" onclick="toggleCard(1)">
-            <img src="images/burger1.jpg" alt="">
+          <img src="images/burger1.jpg" alt="" />
         </label>
         <div class="content">
-            <h3>100% Vegan</h3>
-            <p>Click the image to read more...</p>
-            <p class="description">More information about this burger.</p>
+          <h3>100% Vegan</h3>
+          <p>Click the image to read more...</p>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            vero inventore dolor, officia ex quo tenetur. Fugit voluptatum,
+            saepe similique excepturi nesciunt temporibus sit rem quia quibusdam
+            nobis quidem iure.
+          </p>
         </div>
-    </div>
-    <!-- 2 -->
-    <div class="card shadow">
+      </div>
+      <!-- 2 -->
+      <div class="card shadow" id="card2" onclick="dropout2()">
         <label class="card-label" onclick="toggleCard(2)">
-            <img src="images/burger2.jpg" alt="burger with one thick slice of tomato">
+          <img
+            src="images/burger2.jpg"
+            alt="burger with one thick slice of tomato" />
         </label>
         <div class="content">
-            <h3>Thicc Tomato Slice</h3>
-            <p>Click the image to read more...</p>
-            <p class="description">More information about this burger.</p>
+          <h3>Thicc Tomato Slice</h3>
+          <p>Click the image to read more...</p>
+          <p class="description">More information about this burger.</p>
         </div>
-    </div>
-    <!-- 3 -->
-    <div class="card shadow">
+      </div>
+      <!-- 3 -->
+      <div class="card shadow" id="card3" onclick="dropout3()">
         <label class="card-label" onclick="toggleCard(3)">
-            <img src="images/burger3.jpg" alt="burger with three square-shaped patties">
+          <img
+            src="images/burger3.jpg"
+            alt="burger with three square-shaped patties" />
         </label>
         <div class="content">
-            <h3>Burger Delight</h3>
-            <p>Click the image to read more...</p>
-            <p class="description">More information about this burger.</p>
+          <h3>Burger Delight</h3>
+          <p>Click the image to read more...</p>
+          <p class="description">More information about this burger.</p>
         </div>
-    </div>
-    <!-- 4 -->
-    <div class="card shadow">
+      </div>
+      <!-- 4 -->
+      <div class="card shadow" id="card4" onclick="dropout4()">
         <label class="card-label" onclick="toggleCard(4)">
-            <img src="images/burger4.jpg" alt="burger with three square-shaped patties">
+          <img
+            src="images/burger4.jpg"
+            alt="burger with three square-shaped patties" />
         </label>
         <div class="content">
-            <h3>Orange Goop</h3>
-            <p>Click the image to read more...</p>
-            <p class="description">More information about this burger.</p>
+          <h3>Orange Goop</h3>
+          <p>Click the image to read more...</p>
+          <p class="description">More information about this burger.</p>
         </div>
-    </div>
-    <!-- 5 -->
-    <div class="card shadow">
+      </div>
+      <!-- 5 -->
+      <div class="card shadow" id="card5" onclick="dropout5()">
         <label class="card-label" onclick="toggleCard(5)">
-            <img src="images/burger5.jpg" alt="burger with three square-shaped patties">
+          <img
+            src="images/burger5.jpg"
+            alt="burger with three square-shaped patties" />
         </label>
         <div class="content">
-            <h3>Oiled Greens</h3>
-            <p>Click the image to read more...</p>
-            <p class="description">More information about this burger.</p>
+          <h3>Oiled Greens</h3>
+          <p>Click the image to read more...</p>
+          <p class="description">More information about this burger.</p>
         </div>
-    </div>
-    <!-- 6 -->
-    <div class="card shadow">
+      </div>
+      <!-- 6 -->
+      <div class="card shadow" id="card6" onclick="dropout6()">
         <label class="card-label" onclick="toggleCard(6)">
-            <img src="images/burger6.jpg" alt="burger with three square-shaped patties">
+          <img
+            src="images/burger6.jpg"
+            alt="burger with three square-shaped patties" />
         </label>
         <div class="content">
-            <h3>Triple Square</h3>
-            <p>Click the image to read more...</p>
-            <p class="description">More information about this burger.</p>
+          <h3>Triple Square</h3>
+          <p>Click the image to read more...</p>
+          <p class="description">More information about this burger.</p>
         </div>
-    </div>
+      </div>
     </div>
 
     <!-- JS ( ° ^°) meep-->
-    <script src="funccard.js"></script> 
-    
-</body>
+    <script src="funccard.js"></script>
+  </body>
 </html>
