@@ -8,29 +8,28 @@
     <title>Contact</title>
   </head>
   <body>
-    <main>
+    <header></header>
+    <main class="shadow">
       <form action="">
         <div class="inputGroup">
           <input type="text" name="Name" required="" autocomplete="off" />
           <label for="name">Vor und Nachname</label>
         </div>
-        <label for="mail">Ihre E-Mail</label>
-        <input
-          type="text"
-          name=""
-          id="mail"
-          placeholder="E-mail Adresse?"
-          minlength="5"
-          required />
-        <label for="nachricht">Ihre Nachricht</label>
-        <textarea
-          name=""
-          id="nachricht"
-          cols="30"
-          rows="10"
-          placeholder="Was ist ihr anliegen?"
-          required>
-        </textarea>
+        <div class="inputGroup">
+          <input type="text" name="Name" required="" autocomplete="off" />
+          <label for="name">Ihre E-Mail?</label>
+        </div>
+        <div class="textarea-container">
+          <label for="nachricht">Ihre Nachricht</label>
+          <textarea
+            name=""
+            id="nachricht"
+            cols="30"
+            rows="10"
+            placeholder="Was ist ihr anliegen?"
+            required>
+          </textarea>
+        </div>
         <button>Submit</button>
       </form>
       <section>
