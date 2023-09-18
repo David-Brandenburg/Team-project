@@ -23,7 +23,7 @@ body {
 .card {
   position: relative;
   width: 200px;
-  height: 450px;
+  height: fit-content;
   background-image: linear-gradient(
       rgba(33, 66, 37, 0.5),
       rgba(158, 235, 167, 0.274)
@@ -34,12 +34,9 @@ body {
   margin: 20px;
   transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-
   text-shadow: #517d3391 1px 1px 1px;
 }
-.card-expan {
-  height: 600px;
-}
+
 h3 {
   font-family: "Playball", cursive;
   font-size: xx-large;
