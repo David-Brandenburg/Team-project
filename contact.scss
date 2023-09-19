@@ -10,8 +10,7 @@
 body {
   height: 100%;
   width: 95%;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: auto;
   background-color: #f1fdef;
   color: black;
   header {
@@ -39,7 +38,7 @@ body {
     }
   }
   main {
-    margin-top: 100px;
+    margin-top: 50px;
     border-radius: 10px;
     transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     background-color: #f6edd9;
@@ -48,7 +47,7 @@ body {
       flex-direction: column;
       padding: 20px;
       .inputGroup {
-        font-family: "Segoe UI", sans-serif;
+        font-family: "Poppins", sans-serif;
         margin: 1em 0 1em 0;
         max-width: 190px;
         position: relative;
@@ -94,13 +93,21 @@ body {
       .textarea-container {
         display: flex;
         flex-direction: column;
+
         label {
+          font-family: "Poppins", sans-serif;
+          color: rgb(100, 100, 100);
+          padding-left: 20px;
+          width: 150px;
         }
         textarea {
+          border: none;
+          background-color: #f6edd9;
           border: 2px solid rgb(200, 200, 200);
-          border-radius: 25px;
+          border-radius: 20px;
+          padding-left: 20px;
           &::placeholder {
-            padding-left: 15px;
+            font-size: 16px;
           }
         }
         textarea:focus {
@@ -109,6 +116,7 @@ body {
       }
 
       button {
+        font-family: "Poppins", sans-serif;
         margin-top: 20px;
         padding: 1.3em 3em;
         font-size: 12px;
@@ -138,7 +146,9 @@ body {
     }
 
     section {
-      margin-top: 50px;
+      font-family: "Poppins", sans-serif;
+      padding: 40px;
+      color: #004d15;
     }
   }
 }
@@ -146,4 +156,16 @@ body {
 .shadow {
   box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(190, 190, 190),
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    max-width: 1200px;
+    header {
+      justify-content: flex-start;
+      a {
+        margin-right: 400px;
+      }
+    }
+  }
 }
