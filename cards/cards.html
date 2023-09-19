@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet" />
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Playball&display=swap"
-      rel="stylesheet" />
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
       integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e"
-      crossorigin="anonymous" />
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="stylecards.css" />
     <title>Cards that expand til the Moon</title>
   </head>
@@ -24,18 +27,24 @@
         class="card shadow"
         onmouseover="playHoverSound()"
         onmouseout="stopHoverSound()"
-        onclick="toggleCard(1)">
+        onclick="toggleCard(1)"
+      >
         <label class="card-label">
           <img src="images/burger1.jpg" alt="" />
         </label>
         <div class="content">
           <h3>100% Vegan</h3>
           <p>Click the image to read more...</p>
-          <p class="description">
-            Der Burger besteht aus einem saftigen pflanzlichen Patty, perfekt gewürzt und kombiniert mit einer authentischen Teriyaki-Sauce. Er wird mit knusprigem japanischem Salat, einer herzhaften Tofu-Rührei-Alternative, die die Textur eines halb gekochten Eies nachahmt, und einem milchfreien "Moso"-Käse aus pflanzlichen Zutaten garniert. Dieser vegane Käse bietet den reichen Geschmack von Gouda, der durch die Verwendung von konzentrierten pflanzlichen Zutaten erreicht wird und einen üppigen, cremigen und köstlichen Geschmack liefert. 
-            
-            Genießen Sie Ihren tierfreundlichen und köstlichen veganen Burger!
-          </p>
+          <div class="description">
+            <ul>
+              <li>Sesam Bun</li>
+              <li>Moso-Käse</li>
+              <li>Japanischer-Salat</li>
+              <li>Tofu-Ei</li>
+              <li>Seitan-Würstchen</li>
+              <li>Krautsalat</li>
+            </ul>
+          </div>
         </div>
       </div>
       <!-- 2 -->
@@ -43,14 +52,21 @@
         <label class="card-label">
           <img
             src="images/burger2.jpg"
-            alt="burger with one thick slice of tomato" />
+            alt="burger with one thick slice of tomato"
+          />
         </label>
         <div class="content">
           <h3>Thicc Tomato Slice</h3>
           <p>Click the image to read more...</p>
-          <p class="description">Der Burger präsentiert einen köstlichen pflanzlichen Patty, hergestellt aus hochwertigen Zutaten, auf einem Bett frischer grüner Blattgemüse. Großzügig beträufelt mit einer speziellen veganen Teriyaki-Sauce, begleitet von veganer Mayonnaise und garniert mit hauchdünn geschnittenen Tomaten. Der Patty ist das Highlight dieses Gerichts und überzeugt mit einer einzigartigen Kombination aus herzhafter Textur und saftiger Zartheit, ohne tierische Produkte. Die vegane Teriyaki-Sauce, entwickelt, um dem japanischen Gaumen zu entsprechen, verfeinert die Aromen des Pattys, während das knackige Blattgemüse und die Tomatenscheiben für eine erfrischende Gemüsekomponente sorgen.
-          
-          Genießen Sie diesen köstlichen und tierfreundlichen veganen Burger, der die Essenz des Originalgerichts einfängt!</p>
+          <div class="description">
+            <ul>
+              <li>Burger Bun</li>
+              <li>Vegane-Mayonnaise</li>
+              <li>Dicke Tomatenscheibe</li>
+              <li>Beyond Meat Patty</li>
+              <li>Feldsalat</li>
+            </ul>
+          </div>
         </div>
       </div>
       <!-- 3 -->
@@ -58,12 +74,22 @@
         <label class="card-label" onclick="toggleCard(3)">
           <img
             src="images/burger3.jpg"
-            alt="burger with three square-shaped patties" />
+            alt="burger with three square-shaped patties"
+          />
         </label>
         <div class="content">
           <h3>Fullstack</h3>
           <p>Click the image to read more...</p>
-          <p class="description">Ein herzhafter Burger, der mit saftigen pflanzlichen Patties auf Brötchen beginnt, garniert mit dünn geschnittenen Zwiebeln und großzügig beträufelt mit Mos Burgers original veganer Sauce. Er wird ergänzt durch Tomatenscheiben und eine Schicht knusprigen Salates für den extra Biss. Dieser Burger stellt eine zeitgenössische Interpretation des klassischen "Mos Double Burger" Menüpunktes aus den frühen Tagen von Mos Burger dar, neu erfunden mit pflanzlichen Zutaten.</p>
+          <div class="description">
+            <ul>
+              <li>Burger Bun</li>
+              <li>Feldsalat</li>
+              <li>Würzige Salsa</li>
+              <li>Veganer Schmelzkäse</li>
+              <li>Jackfruit-Patty</li>
+              <li>Tomate</li>
+            </ul>
+          </div>
         </div>
       </div>
       <!-- 4 -->
@@ -71,14 +97,21 @@
         <label class="card-label" onclick="toggleCard(4)">
           <img
             src="images/burger4.jpg"
-            alt="burger with three square-shaped patties" />
+            alt="burger with three square-shaped patties"
+          />
         </label>
         <div class="content">
           <h3>Orange Goop</h3>
           <p>Click the image to read more...</p>
-          <p class="description">Wir haben großzügig geschälte pflanzliche Garnelen verwendet, um knusprige Garnelenkoteletts herzustellen. Diese werden mit einer fettarmen, veganen Mayonnaise-Alternative und fein geschnittenem Salat kombiniert. Darüber haben wir unsere vegane Ebi-Mayo-Sauce geträufelt*. Die Garnelenkoteletts sind mit kräftigen Stücken von pflanzlichen Garnelen gefüllt, so dass Sie bei jedem Biss den Geschmack von Garnelen und einen zufriedenstellenden Crunch genießen können. Unsere vegane Ebi-Mayo-Sauce wird aus einem Extrakt aus Shirohime-Garnelen hergestellt und mit Ketchup und anderen pflanzlichen Zutaten vermischt, um eine harmonische Balance zwischen Säure und Süße zu erreichen. Als subtile Note haben wir Zitronensaft hinzugefügt, um einen erfrischenden Kick zu bieten.
-
-          *Unsere vegane Ebi-Mayo-Sauce verwendet pflanzliche Zutaten und enthält keine tierischen Produkte.</p>
+          <div class="description">
+            <ul>
+              <li>Burger Bun</li>
+              <li>Orange Goop</li>
+              <li>Shredded Salat</li>
+              <li>Crusty Jackfruit-Patty</li>
+              <li>Crunchy Garnelenkoteletts</li>
+            </ul>
+          </div>
         </div>
       </div>
       <!-- 5 -->
@@ -86,12 +119,21 @@
         <label class="card-label" onclick="toggleCard(5)">
           <img
             src="images/burger5.jpg"
-            alt="burger with three square-shaped patties" />
+            alt="burger with three square-shaped patties"
+          />
         </label>
         <div class="content">
-            <h3>Sad Oiled Greens</h3>
-            <p>Click the image to read more...</p>
-            <p class="description">Der vegane Cream Cheese Teriyaki Burger wird hergestellt, indem reichlich knackiger Salat und pflanzlicher Cream Cheese auf einen pflanzlichen Patty geschichtet werden, der mit unserer charakteristischen Teriyaki-Sauce verfeinert ist. Dieses Ganze wird zwischen veganen Brötchen serviert. Um die Reichhaltigkeit zu erhöhen, haben wir eine pflanzliche Butteralternative hinzugefügt, was zu einem cremigeren und noch köstlicheren Geschmackserlebnis führt.</p>
+          <h3>Sad Oiled Greens</h3>
+          <p>Click the image to read more...</p>
+          <div class="description">
+            <ul>
+              <li>Rustikales Bun</li>
+              <li>Vegane-Mayonnaise</li>
+              <li>Feldsalat</li>
+              <li>Sad Oil</li>
+              <li>Burger-Patty</li>
+            </ul>
+          </div>
         </div>
       </div>
       <!-- 6 -->
@@ -99,12 +141,24 @@
         <label class="card-label" onclick="toggleCard(6)">
           <img
             src="images/burger6.jpg"
-            alt="burger with three square-shaped patties" />
+            alt="burger with three square-shaped patties"
+          />
         </label>
         <div class="content">
           <h3>Triple Square</h3>
           <p>Click the image to read more...</p>
-          <p class="description">Dieser Burger bietet den Geschmack von drei köstlichen pflanzlichen Patties, jeder begleitet von drei Streifen veganem, geräuchertem Bacon aus Applewood, geschmolzenem veganem Käse, frischem Salat, reifen Tomaten, würzigen Gewürzgurken, Ketchup, cremiger veganer Mayo und gewürfelten Zwiebeln, alles umhüllt von einem gerösteten Brötchen.</p>
+          <div class="description">
+            <ul>
+              <li>Burger Bun</li>
+              <li>Gurken</li>
+              <li>Barbecue Sauce</li>
+              <li>Zwiebeln</li>
+              <li>Tomato</li>
+              <li>Feldsalat</li>
+              <li>Square-Patty</li>
+              <li>Vegan Cheddar</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>

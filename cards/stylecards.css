@@ -77,6 +77,11 @@ p {
   display: none;
 }
 
+.description ul {
+  font-size: 18px;
+  padding: 15px 0px 0px 23px;
+}
+
 /*responsive*/
 @media screen and (min-width: 376px) {
   .card {
