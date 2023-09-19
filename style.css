@@ -116,10 +116,6 @@ header {
   height: 21px;
 }
 
-.toggle-button:hover {
-  background: var(--highlight-background-color);
-}
-
 /* burger menu into an x */
 
 .toggle-button .bar {
