@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,15 +8,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Playball&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet" />
+    <link
       rel="stylesheet"
-    />
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+      integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e"
+      crossorigin="anonymous" />
     <script src="script.js" defer></script>
     <script
       src="https://kit.fontawesome.com/c7deb9d045.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>Burger Shot</title>
+      crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="stylecards.css" />
+    <title>Burger Shot</title>
   </head>
   <body>
     <header>
@@ -41,5 +45,167 @@
         </div>
       </nav>
     </header>
+    <picture>
+      <img
+        src="/images/veganer-burger-0594.webp"
+        class="img-fluid"
+        alt="image desc" />
+    </picture>
+    <div class="cards-container">
+      <!-- 1 -->
+      <div
+        class="card shadow"
+        onmouseover="playHoverSound()"
+        onmouseout="stopHoverSound()"
+        onclick="toggleCard(1)">
+        <label class="card-label">
+          <img src="images/burger1.jpg" alt="" />
+        </label>
+        <div class="content">
+          <div class="name-price">
+            <h3>100% Vegan</h3>
+            <h4>13,99€</h4>
+          </div>
+          <p>Click the image to read more...</p>
+          <div class="description">
+            <ul>
+              <li>Sesam Bun</li>
+              <li>Moso-Käse</li>
+              <li>Japanischer-Salat</li>
+              <li>Tofu-Ei</li>
+              <li>Seitan-Würstchen</li>
+              <li>Krautsalat</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- 2 -->
+      <div class="card shadow" onclick="toggleCard(2)">
+        <label class="card-label">
+          <img
+            src="images/burger2.jpg"
+            alt="burger with one thick slice of tomato" />
+        </label>
+        <div class="content">
+          <div class="name-price">
+            <h3>Thicc Tomato Slice</h3>
+            <h4>15,99€</h4>
+          </div>
+          <p>Click the image to read more...</p>
+          <div class="description">
+            <ul>
+              <li>Burger Bun</li>
+              <li>Vegane-Mayonnaise</li>
+              <li>Dicke Tomatenscheibe</li>
+              <li>Beyond Meat Patty</li>
+              <li>Feldsalat</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- 3 -->
+      <div class="card shadow">
+        <label class="card-label" onclick="toggleCard(3)">
+          <img
+            src="images/burger3.jpg"
+            alt="burger with three square-shaped patties" />
+        </label>
+        <div class="content">
+          <div class="name-price">
+            <h3>Fullstack</h3>
+            <h4>17,99€</h4>
+          </div>
+          <p>Click the image to read more...</p>
+          <div class="description">
+            <ul>
+              <li>Burger Bun</li>
+              <li>Feldsalat</li>
+              <li>Würzige Salsa</li>
+              <li>Veganer Schmelzkäse</li>
+              <li>Jackfruit-Patty</li>
+              <li>Tomate</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- 4 -->
+      <div class="card shadow">
+        <label class="card-label" onclick="toggleCard(4)">
+          <img
+            src="images/burger4.jpg"
+            alt="burger with three square-shaped patties" />
+        </label>
+        <div class="content">
+          <div class="name-price">
+            <h3>Orange Goop</h3>
+            <h4>7,99€</h4>
+          </div>
+          <p>Click the image to read more...</p>
+          <div class="description">
+            <ul>
+              <li>Burger Bun</li>
+              <li>Orange Goop</li>
+              <li>Shredded Salat</li>
+              <li>Crusty Jackfruit-Patty</li>
+              <li>Veggie Garnelenkoteletts</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- 5 -->
+      <div class="card shadow">
+        <label class="card-label" onclick="toggleCard(5)">
+          <img
+            src="images/burger5.jpg"
+            alt="burger with three square-shaped patties" />
+        </label>
+        <div class="content">
+          <div class="name-price">
+            <h3>Sad Oiled Greens</h3>
+            <h4>15,33€</h4>
+          </div>
+          <p>Click the image to read more...</p>
+          <div class="description">
+            <ul>
+              <li>Rustikales Bun</li>
+              <li>Vegane-Mayonnaise</li>
+              <li>Feldsalat</li>
+              <li>Sad Oil</li>
+              <li>Burger-Patty</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- 6 -->
+      <div class="card shadow">
+        <label class="card-label" onclick="toggleCard(6)">
+          <img
+            src="images/burger6.jpg"
+            alt="burger with three square-shaped patties" />
+        </label>
+        <div class="content">
+          <div class="name-price">
+            <h3>Triple Square</h3>
+            <h4>18,99€</h4>
+          </div>
+          <p>Click the image to read more...</p>
+          <div class="description">
+            <ul>
+              <li>Burger Bun</li>
+              <li>Gurken</li>
+              <li>Barbecue Sauce</li>
+              <li>Zwiebeln</li>
+              <li>Tomato</li>
+              <li>Feldsalat</li>
+              <li>Square-Patty</li>
+              <li>Vegan Cheddar</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JS ( ° ^°) meep-->
+    <script src="funccard.js"></script>
   </body>
 </html>

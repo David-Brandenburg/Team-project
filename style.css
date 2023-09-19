@@ -24,6 +24,9 @@ header {
   height: 80px;
   border: 1px solid #03300f;
 }
+h4 {
+  color: black;
+}
 
 .navbar {
   position: relative;
@@ -116,10 +119,6 @@ header {
   height: 21px;
 }
 
-.toggle-button:hover {
-  background: var(--highlight-background-color);
-}
-
 /* burger menu into an x */
 
 .toggle-button .bar {
@@ -177,4 +176,10 @@ header {
   .navbar-links.active {
     display: flex;
   }
+}
+
+picture img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
 }
