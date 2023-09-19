@@ -3,26 +3,26 @@
 *,
 *::before,
 *::after {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    border: none;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  box-sizing: border-box;
 }
 
-body {
-    background-color: #779a75;
+footer {
+  background-color: #779a75;
 }
 
 h1 {
-    text-align: center;
-    font-family: "Playball", cursive;
-    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: "Playball", cursive;
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.1);
 }
 
 p {
-    text-align: center;
-    font-family: "Poppins", sans-serif;
-    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.1);
 }
