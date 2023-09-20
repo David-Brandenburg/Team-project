@@ -1,0 +1,156 @@
+*,
+*::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 95%;
+  margin: auto;
+  background-color: #f1fdef;
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    a {
+      font-size: 48px;
+      color: #004d15;
+    }
+    .überschrift-container {
+      margin-left: 10px;
+      h1 {
+        font-family: "Playball", sans-serif;
+        text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.2);
+        color: #004d15;
+        text-decoration: underline;
+      }
+      p {
+        font-family: "Poppins", sans-serif;
+        text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+  main {
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(3, 300px);
+    grid-template-areas:
+      "card1"
+      "card2"
+      "card3";
+    margin-bottom: 20px;
+    .card-1 {
+      grid: card1;
+      background-color: #f6edd9;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 254px;
+      margin-top: 20px;
+      padding: 40px;
+      padding-top: 0px;
+      border-radius: 10px;
+      transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.2);
+      font-family: "Poppins", sans-serif;
+      i {
+        font-size: 36px;
+        align-self: center;
+        color: #004d15;
+      }
+      h2 {
+        padding-bottom: 10px;
+        font-family: "Playball", sans-serif;
+        color: #004d15;
+        text-decoration: underline;
+      }
+    }
+
+    .card-2 {
+      grid: card2;
+      background-color: #f6edd9;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 254px;
+      margin-top: 20px;
+      padding: 40px;
+      padding-top: 0px;
+      border-radius: 10px;
+      transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      font-family: "Poppins", sans-serif;
+      text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.2);
+      i {
+        font-size: 36px;
+        align-self: center;
+        color: #004d15;
+      }
+      h2 {
+        padding-bottom: 10px;
+        font-family: "Playball", sans-serif;
+        text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.2);
+        color: #004d15;
+        text-decoration: underline;
+      }
+    }
+    .card-3 {
+      grid: card3;
+      background-color: #f6edd9;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 254px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      padding: 40px;
+      padding-top: 0px;
+      border-radius: 10px;
+      transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.2);
+      font-family: "Poppins", sans-serif;
+      i {
+        font-size: 36px;
+        align-self: center;
+        color: #004d15;
+      }
+      h2 {
+        padding-bottom: 10px;
+        text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.2);
+        font-family: "Playball", sans-serif;
+        color: #004d15;
+        text-decoration: underline;
+      }
+    }
+
+    .shadow {
+      box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0 0 0 2px rgb(190, 190, 190), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    max-width: 1200px;
+    header {
+      justify-content: flex-start;
+      a {
+        margin-right: 400px;
+      }
+    }
+    main {
+      grid-template-columns: minmax(710px, 1200px);
+      .card-1,
+      .card-2,
+      .card-3 {
+        padding-top: 40px;
+      }
+    }
+  }
+}
