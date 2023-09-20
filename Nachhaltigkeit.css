@@ -23,6 +23,7 @@ body header {
 body header a {
   font-size: 48px;
   color: #004d15;
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.2);
 }
 body header .überschrift-container {
   margin-left: 10px;

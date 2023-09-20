@@ -6,19 +6,15 @@
   box-sizing: border-box;
   color: var(--text-color);
 }
+body {
+  background-color: #f1fdef;
+}
 
-:root {
+header {
   --background-color: #068729;
   --highlight-background-color: #779a75;
   --accent-color: #d3a350;
   --text-color: #ffda84;
-}
-
-header {
-  /* background-image: url(/assets/bg_01.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
   background-color: var(--background-color);
   width: 100%;
   height: 80px;
