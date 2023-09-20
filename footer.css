@@ -1,15 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Maven+Pro:wght@900&family=Pacifico&family=Playball&family=Roboto+Condensed:wght@300;400;700&family=Roboto+Mono:ital,wght@1,200;1,700&family=Roboto:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Maven+Pro:wght@900&family=Pacifico&family=Playball&family=Poppins:ital,wght@1,300&family=Roboto+Condensed:wght@300;400;700&family=Roboto+Mono:ital,wght@1,200;1,700&family=Roboto:wght@100&display=swap");
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-  border: none;
-  box-sizing: border-box;
-}
 
 footer {
   background-color: #779a75;
