@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Maven+Pro:wght@900&family=Pacifico&family=Playball&family=Roboto+Condensed:wght@300;400;700&family=Roboto+Mono:ital,wght@1,200;1,700&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Maven+Pro:wght@900&family=Pacifico&family=Playball&family=Poppins:ital,wght@1,300&family=Roboto+Condensed:wght@300;400;700&family=Roboto+Mono:ital,wght@1,200;1,700&family=Roboto:wght@100&display=swap");
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1fdef;
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+}
+
+.box {
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0 0 0 2px rgb(190, 190, 190), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    border-radius: 22px;
+}
+
+h1 {
+    font-family: "Playball", cursive;
+    color: #004d15;
+    text-decoration: underline;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+}
+
+.welcome {
+    padding: 20px;
+    text-align: center;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.1);
+    font-family: "Playball", cursive;
+    color: #004d15;
+}
+
+a {
+    font-size: 48px;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: #f1fdef;
+        text-align: center;
+    }
+
+    .box {
+        background-color: #f6edd9;
+        margin-right: 20px;
+    }
+
+    .box label {
+        background-color: #f1fdef;
+        cursor: pointer;
+        text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.1);
+        font-family: "Playball", cursive;
+    }
+    .box input {
+        cursor: pointer;
+        text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.1);
+        font-family: "Poppins", sans-serif;
+    }
+
+    i {
+        display: flex; 
+        color: #004d15;
+        padding: 20px;
+
+
+    }
+
+    .btn input {
+        font-family: "Playball", cursive;
+        font-size: 20px;
+        width: 30%;
+        margin: 20px;
+        background-color: #f1fdef;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .box {
+        border: 1px #ccc solid;
+        background-color: #f6edd9;
+        margin: 0 auto;
+        padding: 18px;
+        width: 50%;
+        height: 710px;
+        margin-top: 10px;
+    }
+
+    .box label {
+        display: block;
+        background-color: #f1fdef;
+        color: black;
+        padding: 2px;
+        margin: 0 auto;
+        width: 350px;
+        cursor: pointer;
+        font-family: "Playball", cursive;
+        text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.1);
+    }
+    .box input {
+        display: block;
+        background-color: white;
+        color: #068729;
+        width: 350px;
+        padding: 8px 5px;
+        margin: 0 auto;
+        margin-bottom: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        font-family: "Poppins", sans-serif;
+        text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.1);
+    }
+    .btn input {
+        text-align: center;
+        background: #f1fdef;
+        color: black;
+        width: 360px;
+        padding: 6px;
+        font-family: "Playball", cursive;
+        text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    i {
+        color: #004d15;
+    }
+}
