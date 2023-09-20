@@ -7,21 +7,14 @@
   color: var(--text-color);
 }
 
-:root {
+header {
   --background-color: #068729;
   --highlight-background-color: #779a75;
   --accent-color: #d3a350;
   --text-color: #ffda84;
-}
-
-header {
-  /* background-image: url(/assets/bg_01.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
   background-color: var(--background-color);
   width: 100%;
-  height: 80px;
+  height: 85px;
   border: 1px solid #03300f;
 }
 
@@ -56,6 +49,8 @@ header {
 
 .navbar-links li a {
   font-family: Poppins;
+  font-weight: 500;
+  font-size: 18px;
   text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.2);
   text-decoration: none;
   color: var(--text-color);
@@ -71,10 +66,10 @@ header {
 /* burger logo */
 
 .burger-logo {
-  animation: moveJump 4s ease-in-out infinite, slide 8s linear 2.5;
+  animation: moveJump 4s ease-in-out infinite, slide 8s linear 2.4;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 40%;
   transform: translate(-50%, -50%) scale(1.5);
 }
 
@@ -107,7 +102,7 @@ header {
 .toggle-button {
   cursor: pointer;
   position: absolute;
-  top: 1.5rem;
+  top: 1.7rem;
   right: 1rem;
   display: none;
   flex-direction: column;
