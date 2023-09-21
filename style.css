@@ -70,11 +70,11 @@ h4 {
 /* burger logo */
 
 .burger-logo {
-  animation: moveJump 4s ease-in-out infinite, slide 8s linear 2.5;
+  animation: moveJump 4s ease-in-out infinite, slide 8s linear 2.3;
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(1.5);
+  left: 33%;
+  transform: translate(-50%, -33%) scale(1.5);
 }
 ul {
   list-style-type: circle;

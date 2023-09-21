@@ -55,6 +55,10 @@ a {
   text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.1);
 }
 
+.btn {
+  min-width: 200px;
+}
+
 @media screen and (max-width: 768px) {
   body {
     background-color: #f1fdef;
@@ -70,12 +74,14 @@ a {
     background-color: #f1fdef;
     cursor: pointer;
     text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.1);
-    font-family: "Playball", cursive;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
   }
   .box input {
     cursor: pointer;
     text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.1);
     font-family: "Poppins", sans-serif;
+    font-weight: bold;
   }
 
   i {
@@ -85,9 +91,9 @@ a {
   }
 
   .btn input {
-    font-family: "Playball", cursive;
-    font-size: 20px;
-    width: 30%;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    width: 40%;
     margin: 20px;
     background-color: #f1fdef;
   }
@@ -112,7 +118,8 @@ a {
     margin: 0 auto;
     width: 350px;
     cursor: pointer;
-    font-family: "Playball", cursive;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
     text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.1);
   }
   .box input {
@@ -134,7 +141,8 @@ a {
     color: black;
     width: 360px;
     padding: 6px;
-    font-family: "Playball", cursive;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
     text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.1);
   }
 

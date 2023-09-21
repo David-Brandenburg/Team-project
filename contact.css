@@ -54,7 +54,7 @@ body main form {
 body main form .inputGroup {
   font-family: "Poppins", sans-serif;
   margin: 1em 0 1em 0;
-  max-width: 190px;
+  max-width: 200px;
   position: relative;
 }
 body main form .inputGroup input {
